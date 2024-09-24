@@ -1,0 +1,59 @@
+Private Sub L1_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("All table").Range("R14").Value = "L1"
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Top = ThisWorkbook.Sheets("Single Ride Summary").Range("D28").Top
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Left = ThisWorkbook.Sheets("Single Ride Summary").Range("D28").Left
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L2_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("All table").Range("R14").Value = "L2"
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Top = ThisWorkbook.Sheets("Single Ride Summary").Range("E28").Top
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Left = ThisWorkbook.Sheets("Single Ride Summary").Range("E28").Left
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L3_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("All table").Range("R14").Value = "L3"
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Top = ThisWorkbook.Sheets("Single Ride Summary").Range("F28").Top
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Left = ThisWorkbook.Sheets("Single Ride Summary").Range("F28").Left
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L4_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("All table").Range("R14").Value = "L4"
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Top = ThisWorkbook.Sheets("Single Ride Summary").Range("G28").Top
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Left = ThisWorkbook.Sheets("Single Ride Summary").Range("G28").Left
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L5_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("All table").Range("R14").Value = "L5"
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Top = ThisWorkbook.Sheets("Single Ride Summary").Range("H28").Top
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Left = ThisWorkbook.Sheets("Single Ride Summary").Range("H28").Left
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L6_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("All table").Range("R14").Value = "L6"
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Top = ThisWorkbook.Sheets("Single Ride Summary").Range("I28").Top
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Left = ThisWorkbook.Sheets("Single Ride Summary").Range("I28").Left
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L7_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("All table").Range("R14").Value = "L7"
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Top = ThisWorkbook.Sheets("Single Ride Summary").Range("I28").Top
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Left = ThisWorkbook.Sheets("Single Ride Summary").Range("I28").Left
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L8_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("All table").Range("R14").Value = "L8"
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Top = ThisWorkbook.Sheets("Single Ride Summary").Range("J28").Top
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Left = ThisWorkbook.Sheets("Single Ride Summary").Range("J28").Left
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub HideAll_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Single Ride Summary").Shapes("Happy").Visible = False
+End Sub

@@ -1,0 +1,59 @@
+Private Sub L1_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Bubble chart data").Range("A14").Value = "L1"
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Top = ThisWorkbook.Sheets("Hover").Range("E7").Top
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Left = ThisWorkbook.Sheets("Hover").Range("E7").Left
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L2_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Bubble chart data").Range("A14").Value = "L2"
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Top = ThisWorkbook.Sheets("Hover").Range("F7").Top
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Left = ThisWorkbook.Sheets("Hover").Range("F7").Left
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L3_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Bubble chart data").Range("A14").Value = "L3"
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Top = ThisWorkbook.Sheets("Hover").Range("G4").Top
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Left = ThisWorkbook.Sheets("Hover").Range("G4").Left
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L4_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Bubble chart data").Range("A14").Value = "L4"
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Top = ThisWorkbook.Sheets("Hover").Range("H5").Top
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Left = ThisWorkbook.Sheets("Hover").Range("H5").Left
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L5_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Bubble chart data").Range("A14").Value = "L5"
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Top = ThisWorkbook.Sheets("Hover").Range("I8").Top
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Left = ThisWorkbook.Sheets("Hover").Range("I8").Left
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L6_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Bubble chart data").Range("A14").Value = "L6"
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Top = ThisWorkbook.Sheets("Hover").Range("J4").Top
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Left = ThisWorkbook.Sheets("Hover").Range("J4").Left
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L7_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Bubble chart data").Range("A14").Value = "L7"
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Top = ThisWorkbook.Sheets("Hover").Range("K5").Top
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Left = ThisWorkbook.Sheets("Hover").Range("K5").Left
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub L8_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Bubble chart data").Range("A14").Value = "L8"
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Top = ThisWorkbook.Sheets("Hover").Range("L8").Top
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Left = ThisWorkbook.Sheets("Hover").Range("L8").Left
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = True
+End Sub
+
+Private Sub HideAll_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+    ThisWorkbook.Sheets("Hover").Shapes("Happy").Visible = False
+End Sub
